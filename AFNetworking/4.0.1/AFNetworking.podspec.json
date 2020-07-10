@@ -1,0 +1,42 @@
+{
+  "name": "AFNetworking",
+  "version": "4.0.1",
+  "license": "MIT",
+  "summary": "A delightful networking framework for Apple platforms.",
+  "homepage": "https://github.com/AFNetworking/AFNetworking",
+  "social_media_url": "https://twitter.com/AFNetworking",
+  "authors": {
+    "Mattt Thompson": "m@mattt.me"
+  },
+  "source": {
+    "http": "http://127.0.0.1:8000/AFNetworking/4.0.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.10",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "vendored_frameworks": "AFNetworking.framework",
+  "ios": {
+    "pod_target_xcconfig": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "com.alamofire.AFNetworking"
+    }
+  },
+  "osx": {
+    "pod_target_xcconfig": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "com.alamofire.AFNetworking"
+    }
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "com.alamofire.AFNetworking-watchOS"
+    }
+  },
+  "tvos": {
+    "pod_target_xcconfig": {
+      "PRODUCT_BUNDLE_IDENTIFIER": "com.alamofire.AFNetworking"
+    }
+  }
+}
